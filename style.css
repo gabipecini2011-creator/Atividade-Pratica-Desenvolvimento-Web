@@ -87,6 +87,13 @@ h2 {
     color: #2d1b38;
     border: 2px solid #3c3146;
     border-radius: 10px;
+    box-shadow: 0 0 10px #d8a8ff, 0 0 20px #a855f7;
+    transition: 0.4s ease;
+}
+
+.card-habilidade:hover {
+    box-shadow: 0 0 15px #ffffff, 0 0 30px #d8a8ff, 0 0 45px #a855f7;
+    transform: translateY(-8px);
 }
 
 .card-habilidade h3 {
@@ -143,6 +150,19 @@ button {
     color: white;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.4s ease,
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #e91e63;
+    transform: scale(1.08);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: scale(0.95);
 }
 
 footer {
