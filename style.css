@@ -198,28 +198,18 @@ footer h2 {
     font-size: 14px;
 }
 
-@media (max-width: 600px) {
-    #cabecalho h1 {
-        font-size: 32px;
-    }
-
-    .container-habilidades {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card-habilidade {
-        width: 90%;
-        max-width: 300px;
-    }
-
-    .card-projeto {
-        width: 95%;
-    }
-
-    .sobre,
-    .habilidades,
-    .projetos {
-        padding: 40px 15px;
-    }
+.btn-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background-color: #d86b8a;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
 }
